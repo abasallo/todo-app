@@ -1,0 +1,34 @@
+{
+  "name": "to-do-back",
+  "private": true,
+  "engines": { "node": "8.1.4" },
+  "dependencies": {
+    "babel-cli": "",
+    "babel-preset-es2015": "",
+    "body-parser": "",
+    "cors": "",
+    "express": "",
+    "express-restify-mongoose": "",
+    "jwks-rsa": "",
+    "express-jwt": "",
+    "method-override": "",
+    "mongoose": ""
+  },
+  "devDependencies": {
+    "babel-jest": "",
+    "isomorphic-fetch": "",
+    "jest": "",
+    "nodemon": ""
+  },
+  "scripts": {
+    "postinstall" : "node_modules/babel-cli/bin/babel.js src --source-maps --out-dir dist",
+    "test": "node_modules/jest/bin/jest.js",
+    "start": "node_modules/babel-cli/bin/babel-node.js dist/server.js",
+    "build": "node_modules/babel-cli/bin/babel.js src --source-maps --out-dir dist",
+    "dev": "node_modules/nodemon/bin/nodemon.js -- node_modules/babel-cli/bin/babel-node.js src/server.js"
+  },
+  "jest": {
+    "testRegex": "/test/.*",
+    "testEnvironment": "node"
+  }
+}

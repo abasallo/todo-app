@@ -1,0 +1,8 @@
+.env
+
+/db/*.sqlite3*
+
+/log
+/tmp
+
+.idea/

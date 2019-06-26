@@ -1,0 +1,422 @@
+exports[`test renders properly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <List
+    style={undefined}>
+    <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        insetChildren={false}
+        leftCheckbox={
+            <Checkbox
+                checked={true}
+                disabled={false}
+                labelPosition="right"
+                onClick={[Function]} />
+        }
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Task 1"
+        primaryTogglesNestedList={false}
+        rightIcon={
+            <IconButton
+                disableTouchRipple={false}
+                disabled={false}
+                iconStyle={Object {}}
+                onClick={[Function]}
+                style={undefined}
+                tooltipPosition="bottom-center"
+                touch={true}>
+                <ActionDelete />
+            </IconButton>
+        }
+        secondaryTextLines={1} />
+    <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={false}
+        initiallyOpen={false}
+        insetChildren={false}
+        leftCheckbox={
+            <Checkbox
+                checked={false}
+                disabled={false}
+                labelPosition="right"
+                onClick={[Function]} />
+        }
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryText="Task 2"
+        primaryTogglesNestedList={false}
+        rightIcon={
+            <IconButton
+                disableTouchRipple={false}
+                disabled={false}
+                iconStyle={Object {}}
+                onClick={[Function]}
+                style={undefined}
+                tooltipPosition="bottom-center"
+                touch={true}>
+                <ActionDelete />
+            </IconButton>
+        }
+        secondaryTextLines={1} />
+</List>,
+  "nodes": Array [
+    <List
+      style={undefined}>
+      <ListItem
+            autoGenerateNestedIndicator={true}
+            containerElement="span"
+            disableKeyboardFocus={false}
+            disabled={false}
+            initiallyOpen={false}
+            insetChildren={false}
+            leftCheckbox={
+                  <Checkbox
+                        checked={true}
+                        disabled={false}
+                        labelPosition="right"
+                        onClick={[Function]} />
+            }
+            nestedItems={Array []}
+            nestedLevel={0}
+            onKeyboardFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onNestedListToggle={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            open={null}
+            primaryText="Task 1"
+            primaryTogglesNestedList={false}
+            rightIcon={
+                  <IconButton
+                        disableTouchRipple={false}
+                        disabled={false}
+                        iconStyle={Object {}}
+                        onClick={[Function]}
+                        style={undefined}
+                        tooltipPosition="bottom-center"
+                        touch={true}>
+                        <ActionDelete />
+                  </IconButton>
+            }
+            secondaryTextLines={1} />
+      <ListItem
+            autoGenerateNestedIndicator={true}
+            containerElement="span"
+            disableKeyboardFocus={false}
+            disabled={false}
+            initiallyOpen={false}
+            insetChildren={false}
+            leftCheckbox={
+                  <Checkbox
+                        checked={false}
+                        disabled={false}
+                        labelPosition="right"
+                        onClick={[Function]} />
+            }
+            nestedItems={Array []}
+            nestedLevel={0}
+            onKeyboardFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onNestedListToggle={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            open={null}
+            primaryText="Task 2"
+            primaryTogglesNestedList={false}
+            rightIcon={
+                  <IconButton
+                        disableTouchRipple={false}
+                        disabled={false}
+                        iconStyle={Object {}}
+                        onClick={[Function]}
+                        style={undefined}
+                        tooltipPosition="bottom-center"
+                        touch={true}>
+                        <ActionDelete />
+                  </IconButton>
+            }
+            secondaryTextLines={1} />
+</List>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <TodoListComponent
+        onDeleteClick={[Function]}
+        onToggleClick={[Function]}
+        todos={
+                Array [
+                        Todo {
+                          "completed": true,
+                          "id": -1,
+                          "text": "Task 1",
+                        },
+                        Todo {
+                          "completed": false,
+                          "id": -1,
+                          "text": "Task 2",
+                        },
+                      ]
+        } />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": TodoListComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "onDeleteClick": [Function],
+          "onToggleClick": [Function],
+          "todos": Array [
+            Todo {
+              "completed": true,
+              "id": -1,
+              "text": "Task 1",
+            },
+            Todo {
+              "completed": false,
+              "id": -1,
+              "text": "Task 2",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <List
+          style={undefined}>
+          <ListItem
+                    autoGenerateNestedIndicator={true}
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    initiallyOpen={false}
+                    insetChildren={false}
+                    leftCheckbox={
+                              <Checkbox
+                                        checked={true}
+                                        disabled={false}
+                                        labelPosition="right"
+                                        onClick={[Function]} />
+                    }
+                    nestedItems={Array []}
+                    nestedLevel={0}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onNestedListToggle={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    primaryText="Task 1"
+                    primaryTogglesNestedList={false}
+                    rightIcon={
+                              <IconButton
+                                        disableTouchRipple={false}
+                                        disabled={false}
+                                        iconStyle={Object {}}
+                                        onClick={[Function]}
+                                        style={undefined}
+                                        tooltipPosition="bottom-center"
+                                        touch={true}>
+                                        <ActionDelete />
+                              </IconButton>
+                    }
+                    secondaryTextLines={1} />
+          <ListItem
+                    autoGenerateNestedIndicator={true}
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    initiallyOpen={false}
+                    insetChildren={false}
+                    leftCheckbox={
+                              <Checkbox
+                                        checked={false}
+                                        disabled={false}
+                                        labelPosition="right"
+                                        onClick={[Function]} />
+                    }
+                    nestedItems={Array []}
+                    nestedLevel={0}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onNestedListToggle={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    primaryText="Task 2"
+                    primaryTogglesNestedList={false}
+                    rightIcon={
+                              <IconButton
+                                        disableTouchRipple={false}
+                                        disabled={false}
+                                        iconStyle={Object {}}
+                                        onClick={[Function]}
+                                        style={undefined}
+                                        tooltipPosition="bottom-center"
+                                        touch={true}>
+                                        <ActionDelete />
+                              </IconButton>
+                    }
+                    secondaryTextLines={1} />
+</List>,
+        "_debugID": 2,
+        "_renderedOutput": <List
+          style={undefined}>
+          <ListItem
+                    autoGenerateNestedIndicator={true}
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    initiallyOpen={false}
+                    insetChildren={false}
+                    leftCheckbox={
+                              <Checkbox
+                                        checked={true}
+                                        disabled={false}
+                                        labelPosition="right"
+                                        onClick={[Function]} />
+                    }
+                    nestedItems={Array []}
+                    nestedLevel={0}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onNestedListToggle={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    primaryText="Task 1"
+                    primaryTogglesNestedList={false}
+                    rightIcon={
+                              <IconButton
+                                        disableTouchRipple={false}
+                                        disabled={false}
+                                        iconStyle={Object {}}
+                                        onClick={[Function]}
+                                        style={undefined}
+                                        tooltipPosition="bottom-center"
+                                        touch={true}>
+                                        <ActionDelete />
+                              </IconButton>
+                    }
+                    secondaryTextLines={1} />
+          <ListItem
+                    autoGenerateNestedIndicator={true}
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    initiallyOpen={false}
+                    insetChildren={false}
+                    leftCheckbox={
+                              <Checkbox
+                                        checked={false}
+                                        disabled={false}
+                                        labelPosition="right"
+                                        onClick={[Function]} />
+                    }
+                    nestedItems={Array []}
+                    nestedLevel={0}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onNestedListToggle={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    primaryText="Task 2"
+                    primaryTogglesNestedList={false}
+                    rightIcon={
+                              <IconButton
+                                        disableTouchRipple={false}
+                                        disabled={false}
+                                        iconStyle={Object {}}
+                                        onClick={[Function]}
+                                        style={undefined}
+                                        tooltipPosition="bottom-center"
+                                        touch={true}>
+                                        <ActionDelete />
+                              </IconButton>
+                    }
+                    secondaryTextLines={1} />
+</List>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <TodoListComponent
+    onDeleteClick={[Function]}
+    onToggleClick={[Function]}
+    todos={
+        Array [
+            Todo {
+              "completed": true,
+              "id": -1,
+              "text": "Task 1",
+            },
+            Todo {
+              "completed": false,
+              "id": -1,
+              "text": "Task 2",
+            },
+          ]
+    } />,
+}
+`;
